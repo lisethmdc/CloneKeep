@@ -4,11 +4,11 @@ export const MyNote = styled.div`
     width: 300px;
     padding: 10px;
     margin: 16px;
+    margin-left: 95px;
     background: #fff;
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
     float: left;
-    font-family: 'Roboto', sans-serif;
 `;
 
 export const NoteTitle = styled.h2`
@@ -36,11 +36,10 @@ export const EditInput = styled.input`
 `;
 
 export const Button = styled.button`
-    position: relative;
-    border: solid 1px red;
+    position: relative;    
     left: 245px;
     padding: 2px;
-    border-radius: 2px;
+    color: red;
 `;
 
 export const CancelButton = styled.button`
@@ -48,15 +47,12 @@ export const CancelButton = styled.button`
     padding: 2px;
     margin: 5px;
     left: 185px;
-    background-color: #353535;
-    color: white
 `;
 
 export const SaveButton = styled.button`
     position: relative;
     padding: 2px;    
-    left: 185px;
-    margin-left: 4px;
-    background-color: #353535;
-    color: white;
+    bottom: -36px;
+    margin-left: 2px;
+    
 `
